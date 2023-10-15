@@ -12,7 +12,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 bg-secondary`} >
+    <nav className={`${styles.paddingX} w-full flex item-center py-5 relative top-0 z-20 shadow-xl`} >
         <div className='w-full flex justify-between items-center max-w-7xl max-auto'>
             <Link 
                 to = "/"
@@ -31,13 +31,16 @@ function Navbar() {
                       key={Link.id}
                       className={`${
                         active === Link.title 
-                        ? "text-tertiary" 
-                        : "text-white"
-                    } hover:text-tertiary text-[18px]
+                        ? "text-secondary" 
+                        : "text-black"
+                    } hover:text-secondary text-[18px]
                       font-medium cursor-pointer`}
-                      onClick={() => setActive(Link.title)}
+                      onClick={() =>{
+                        setToggle(!toggle);
+                        setActive(Link.title);
+                    }}
                     >
-                        <a href={`${Link.id}`}>{Link.title}</a>
+                        <a href={`#${Link.id}`}>{Link.title}</a>
                     </li>
                 ))}
             </ul>
@@ -59,12 +62,13 @@ function Navbar() {
                             <li
                             key={Link.id}
                             className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                                active === Link.title ? "text-tertiary" : "text-white"
+                                active === Link.title 
+                                ? "text-tertiary" 
+                                : "text-white"
                               }`}
-                              onClick={() => {
-                                setToggle(!toggle);
-                                setActive(Link.title);
-                              }}
+                              onClick={() => 
+                                setActive(Link.title)
+                              }
                             >
                                 <a href={`#${Link.id}`}>{Link.title}</a>
                             </li>

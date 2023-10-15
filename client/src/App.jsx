@@ -6,8 +6,8 @@ import {Home, Navbar} from './canvas'
 const App = () => {
   return (
     <BrowserRouter>
-    <div className='relative z-0 bg-secondary'>
-        <div className='bg-cover bg-no-repeat bg-center'>
+    <div className='relative z-0 bg-primary'>
+        <div className='flex flex-col h-screen'>
           <Navbar />
           <Home />
         </div>

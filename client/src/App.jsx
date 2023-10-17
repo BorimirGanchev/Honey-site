@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 
-import {Home, Navbar} from './canvas'
+import {Home, Navbar, WhyPage} from './canvas'
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
         <div className='flex flex-col h-screen'>
           <Navbar />
           <Home />
+          <WhyPage />
         </div>
     </div>
     </BrowserRouter>

@@ -3,7 +3,7 @@ import  beekeper  from "../assets/beekeper.png";
 
 function Home() {
   return (
-    <div className='flex md:flex-row flex-col overflow-auto w-full items-center h-screen mx-auto justify-between'>
+    <div className='flex md:flex-row flex-col  w-full items-center h-screen mx-auto justify-between'>
       <div className='basis-1/2 h-full '>
         <div className='relative flex flex-col gap-10 top-20 lg:left-40 md:left-56 left-24  '>
           <div className='relative'>
@@ -23,7 +23,7 @@ function Home() {
           <div className='relative top-32'>
             <a href="#about">
               <div className='flex items-center text-center justify-center font-bold
-              bg-secondary w-24 h-12 rounded-md shadow-lg
+              bg-secondary w-32 h-14 rounded-md shadow-lg
               shadow-secondary text-white
               hover:bg-[#a94b11] hover:shadow-[#a94b11]
               sm:text-[14px] md:text-[12px] lg:text-[16px]'
@@ -33,7 +33,7 @@ function Home() {
         </div>
       </div>
       <div className='basis-1/2 bg-[#ffe6a1] h-full lg:block hidden '>
-        <img src={beekeper} alt='beekeper' className='mt-48'/>
+        <img src={beekeper} alt='beekeper' className=' mt-48'/>
       </div>
     </div>
   )

@@ -5,11 +5,12 @@ import beeOnFlower from "../assets/beeOnFlower.png"
 import beeHive from "../assets/beeHive.png"
 import bee from "../assets/bee.png"
 import beekeper2 from "../assets/beekeper2.png"
+import { SectionWrapper } from '../hoc';
 
 function whyPage() {
   return (
     <div className='mt-24'>
-      <h1 className=' text-tertiary font-bold text-center text-3xl'>Why Anna | Honey Provider?</h1>
+      <h1 className=' text-tertiary font-bold text-center text-5xl'>Why Anna | Honey Provider?</h1>
       <div className='grid lg:grid-cols-3 gap-8 mt-16 md:grid-cols-2'>
         <div className='flex flex-col justify-center items-center'>
         <img src={beeHive2} alt='beeHive2' className='w-40 h-40'/>
@@ -46,4 +47,4 @@ function whyPage() {
   )
 }
 
-export default whyPage
+export default SectionWrapper (whyPage, "about")

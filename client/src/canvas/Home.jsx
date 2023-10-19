@@ -11,8 +11,8 @@ function Home() {
             <h6 className='text-base font-bold text-tertiary'>Pure From Nature</h6>
           </div>
           <div className='relative'>
-            <h1 className='text-5xl font-bold text-secondary' >Good Noney</h1>
-            <h1 className='text-5xl font-bold text-tertiary relative top-5 sm:left-20' >Good Honey</h1>
+            <h1 className='sm:text-5xl font-bold text-secondary text-3xl' >Good Noney</h1>
+            <h1 className='sm:text-5xl font-bold text-tertiary relative top-5 sm:left-20 text-3xl' >Good Honey</h1>
           </div>
           <div>
             <p className='border-b-2 border-secondary w-1/2 sm:w-9/12 lg:w-1/2 relative top-10' >All our honey is single origin and we are proud practice sustainable beekeeping. Our honey is raw honey that is pure, unpesteurised, unprocessed and with no additives.</p>

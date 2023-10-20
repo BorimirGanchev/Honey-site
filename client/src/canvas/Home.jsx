@@ -21,7 +21,7 @@ function Home() {
             <p className='w-1/2'>We would like to give you the best experience about taste of honey join us now!</p>
           </div>
           <div className='relative top-32'>
-            <a href="#about">
+            <a href="#work">
               <div className='flex items-center text-center justify-center font-bold
               bg-secondary w-32 h-14 rounded-md shadow-lg
               shadow-secondary text-white

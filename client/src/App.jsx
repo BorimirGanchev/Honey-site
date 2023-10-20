@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 
-import {Home, Navbar, WhyPage, Products} from './canvas'
+import {Home, Navbar, WhyPage, Products, Contacts} from './canvas'
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
           <Home />
           <WhyPage />
           <Products />
+          <Contacts />
         </div>
     </div>
     </BrowserRouter>

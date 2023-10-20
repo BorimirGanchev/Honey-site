@@ -1,5 +1,6 @@
 import React from 'react'
 import  beekeper  from "../assets/beekeper.png";
+import bee from "../assets/bee.jpg";
 
 function Home() {
   return (
@@ -29,10 +30,11 @@ function Home() {
               sm:text-[14px] md:text-[12px] lg:text-[16px]'
               >Explore Products</div>
             </a>
+            <img src={bee} alt='bee' className='absolute w-72 ml-40 z-0 opacity-10 lg:block hidden'/>
           </div>
         </div>
       </div>
-      <div className='basis-1/2 bg-[#ffe6a1] h-full lg:block hidden '>
+      <div className='basis-1/2 bg-bee-background-one bg-cover h-full lg:block hidden '>
         <img src={beekeper} alt='beekeper' className=' mt-48'/>
       </div>
     </div>

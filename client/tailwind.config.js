@@ -21,6 +21,10 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/beekeper.png')",
+        "bee-background-one": "url('/src/assets/beeBackgroundBori.jpg')",
+        "bee-background-two": "url('/src/assets/beeBackgrundTwo.jpg')",
+        "bee-background-three": "url('/src/assets/beeBackgrundThree.jpg')",
+        "bee-background-four": "url('/src/assets/beeBackgrundFour.jpg')",
       },
     },
   },

@@ -64,7 +64,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row bg-bee-background-one h-screen flex-col-reverse gap-10 overflow-hidden`}
     >
       <div
         className='flex-[0.75] p-8 rounded-2xl bg-secondary m-auto'

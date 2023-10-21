@@ -12,7 +12,7 @@ function Home() {
             <h6 className='text-base font-bold text-tertiary'>Pure From Nature</h6>
           </div>
           <div className='relative'>
-            <h1 className='sm:text-5xl font-bold text-secondary text-3xl' >Good Noney</h1>
+            <h1 className='sm:text-5xl font-bold text-secondary text-3xl' >Good Honey</h1>
             <h1 className='sm:text-5xl font-bold text-tertiary relative top-5 sm:left-20 text-3xl' >Good Honey</h1>
           </div>
           <div>

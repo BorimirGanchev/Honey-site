@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 
 import { navLinks } from '../constants'
 import { styles } from '../styles'
-import  menu  from "../assets/menu.svg";
-import  close  from "../assets/close.svg";
+import  menu  from "../assets/hamburgerIcon.png";
+import  close  from "../assets/close.png";
 import  logo  from "../assets/logo.png";
 
 function Navbar() {
@@ -23,7 +23,7 @@ function Navbar() {
                 }}
             >
             <img src={logo} alt='logo' className='w-9 h-9 object-contain' />    
-            <p className='text-wite text-[18px] font-bold cursor-pointer flex'>Anna &nbsp; <span className='sm:block hidden'>| Honey provider</span></p>
+            <p className='text-wite text-[18px] font-bold cursor-pointer flex'>Bori &nbsp; <span className='sm:block hidden'>| Honey provider</span></p>
             </Link>
             <ul className='list-none hidden sm:flex flex-row gap-10'>
                 {navLinks.map((Link)=>(
